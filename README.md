@@ -1,6 +1,37 @@
-# Getting Started with Create React App
+# Formula Calculator Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Available Scripts](#Available Scripts)
+
+## Overview
+
+The Formula Calculator is a React-based web application that allows users to input mathematical formulas, evaluate them with variables, and save frequently used formulas. It supports real-time LaTeX rendering and provides immediate feedback on formula validity.
+
+### Tech Stack
+- React 18+
+- KaTeX for LaTeX rendering
+- Local Storage for formula persistence
+- CSS Modules for styling
+
+## Features
+
+### Core Features
+- Mathematical formula input and evaluation
+- Real-time LaTeX rendering
+- Variable management
+- Formula saving and loading
+- Error handling and validation
+- Responsive design
+
+### Formula Support
+- Basic arithmetic operations (+, -, *, /, ^)
+- Mathematical functions (sin, cos, tan, sqrt, log, abs)
+- Variable substitution
+- Parentheses grouping
+
+
 
 ## Available Scripts
 
