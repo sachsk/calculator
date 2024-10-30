@@ -1,0 +1,96 @@
+.saved-formulas {
+    margin-top: 30px;
+}
+
+.save-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.formula-name-input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.save-button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.save-button:hover {
+    background-color: #218838;
+}
+
+.save-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.formulas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.formula-card {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.formula-card h4 {
+    margin: 0 0 10px 0;
+    color: #212529;
+}
+
+.formula-text {
+    margin: 0 0 15px 0;
+    color: #495057;
+    word-break: break-all;
+    font-family: 'Courier New', monospace;
+}
+
+.card-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.load-button,
+.delete-button {
+    flex: 1;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.load-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.load-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}

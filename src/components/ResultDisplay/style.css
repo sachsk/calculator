@@ -1,0 +1,39 @@
+.result-container {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #e8f5e9;
+    border-radius: 4px;
+}
+
+.result-label {
+    font-weight: 600;
+    color: #495057;
+}
+
+.result-value {
+    font-family: 'Courier New', monospace;
+    color: #28a745;
+    font-weight: 600;
+}
+
+.result-placeholder {
+    color: #6c757d;
+    font-style: italic;
+}
+
+.error-message {
+    color: #dc3545;
+    padding: 10px;
+    background-color: #f8d7da;
+    border-radius: 4px;
+    margin-top: 5px;
+}
